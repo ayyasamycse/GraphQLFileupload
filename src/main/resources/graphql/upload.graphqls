@@ -1,0 +1,16 @@
+type Upload {
+	id:Int
+	fileDescription:String
+}
+
+type ResponseEntity{
+	message:String
+}
+
+type Mutation {
+	uploadFile(fileDescription:String):ResponseEntity
+}
+
+type Query {
+}
+
